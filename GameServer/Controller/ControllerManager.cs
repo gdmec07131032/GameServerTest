@@ -48,7 +48,7 @@ namespace GameServer.Controller
             {
                 return;
             }
-            server.SendResponse(client, requestCode, o as string);
+            server.SendResponse(client, actionCode, o as string);
 
         }
 
